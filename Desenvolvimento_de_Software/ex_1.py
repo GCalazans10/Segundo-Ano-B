@@ -1,7 +1,7 @@
 class Celular:  
     def __init__(self, modelo):  
         self.modelo = modelo  
-        self.carga = 100  
+        self.carga = 0
 
     def tirar_foto(self):  
         if self.carga > 0:  
